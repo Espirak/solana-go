@@ -200,6 +200,12 @@ func (builder *TransactionBuilder) AddInstruction(instruction Instruction) *Tran
 	return builder
 }
 
+// PreAddInstruction adds the provided instruction to the builder.
+func (builder *TransactionBuilder) PreAddInstruction(instruction Instruction) *TransactionBuilder {
+	builder.instructions = append([]Instruction{instruction}, builder.instructions...)
+	return builder
+}
+
 // SetRecentBlockHash sets the recent blockhash for the instruction builder.
 func (builder *TransactionBuilder) SetRecentBlockHash(recentBlockHash Hash) *TransactionBuilder {
 	builder.recentBlockHash = recentBlockHash
