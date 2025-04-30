@@ -12,10 +12,10 @@ import (
 // `getFeeCalculatorForBlockhash` for solana-core v1.8**
 func (cl *Client) IsBlockhashValid(
 	ctx context.Context,
-// Blockhash to be queried. Required.
+	// Blockhash to be queried. Required.
 	blockHash solana.Hash,
 
-// Commitment requirement. Optional.
+	// Commitment requirement. Optional.
 	commitment CommitmentType,
 ) (out *IsValidBlockhashResult, err error) {
 	params := []interface{}{blockHash}

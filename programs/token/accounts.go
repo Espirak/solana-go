@@ -17,8 +17,8 @@ package token
 import (
 	"encoding/binary"
 
+	"github.com/Espirak/solana-go"
 	bin "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
 )
 
 type Mint struct {

@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/Espirak/solana-go"
+	"github.com/Espirak/solana-go/text/format"
 	bin "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/text/format"
 	"github.com/gagliardetto/treeout"
 )
 

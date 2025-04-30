@@ -6,8 +6,8 @@ import (
 	"math"
 	"testing"
 
+	"github.com/Espirak/solana-go"
 	bin "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
 	"github.com/stretchr/testify/require"
 )
 

@@ -22,11 +22,11 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Espirak/solana-go"
+	"github.com/Espirak/solana-go/rpc"
+	"github.com/Espirak/solana-go/rpc/ws"
 	rice "github.com/GeertJohan/go.rice"
 	bin "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/rpc"
-	"github.com/gagliardetto/solana-go/rpc/ws"
 	"go.uber.org/zap"
 )
 
