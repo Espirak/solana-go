@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/rpc"
+	"github.com/Espirak/solana-go"
+	"github.com/Espirak/solana-go/rpc"
 	"github.com/spf13/cobra"
 )
 
