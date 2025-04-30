@@ -132,9 +132,9 @@ func (inst *Create) UnmarshalWithDecoder(decoder *ag_binary.Decoder) error {
 
 // NewMemoInstruction declares a new Memo instruction with the provided parameters and accounts.
 func NewMemoInstruction(
-// Parameters:
+	// Parameters:
 	message []byte,
-// Accounts:
+	// Accounts:
 	signer ag_solanago.PublicKey) *Create {
 	return NewMemoInstructionBuilder().
 		SetMessage(message).
